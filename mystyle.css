@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-/* Here is where I style my text type for the whole document, I have put this same style in all my html, therefore this CSS is overriding*/
+/*Here is where I style my text type for the whole document, I have put this same style in all my html, therefore this CSS is overriding*/
 * {
   box-sizing: border-box;
 }
@@ -17,14 +17,14 @@ body {
   margin: 0;
 }
 
-/* Style the header */
+/*Style the header*/
 .header {
   background-color: black;
   padding: 30px;
   text-align: center;
 }
 
-/* Styling the nav bar, to create a responsive nav bar. I sourced this from https://www.youtube.com/watch?v=At4B7A4GOPg, and changed the options suited for myself*/
+/*Styling the nav bar, to create a responsive nav bar. I sourced this from https://www.youtube.com/watch?v=At4B7A4GOPg, and changed the options suited for myself*/
 /*like the padidng, color ect..*/
 .navbar {
   display: flex;
@@ -53,7 +53,7 @@ body {
   list-style: none;
 }
 
-/8 editing the nav bar link anchor tags text*/
+/*editing the nav bar link anchor tags text*/
 .navbar-links li a {
     text-decoration: none;
     color: white;
@@ -61,7 +61,7 @@ body {
     display: block;
 }
  
-/* Changes the background colour of the navbar link when the cursor hovers over it. I changed mine to pink because pink is one of Gemini colours*/
+/*Changes the background colour of the navbar link when the cursor hovers over it. I changed mine to pink because pink is one of Gemini colours*/
 .navbar-links li:hover {
     background-color: pink;
 }
@@ -86,7 +86,7 @@ body {
     border-radius: 10px;
 }
 
-/* responsive media query to make the hamburger toggle button appear when screen size is below 500px*/
+/*responsive media query to make the hamburger toggle button appear when screen size is below 500px*/
 @media (max-width: 500px {
     .toggle {
         display: flex;
@@ -100,20 +100,20 @@ body {
     	flex-direction: column;
         align-items: flex-start;
     }
-    /* makes the nav bar links spread 100% of element width*/
+    /*makes the nav bar links spread 100% of element width*/
     .navbar-links ul {
     	width: 100%;
       flex-direction: column;
     }
-    /* centers the nav bar links*/
+    /*centers the nav bar links*/
     .navbarlinks li {
     	text-align: center;
     }
-    /* select the anchor tags with padding to spread them out less when media query is run*/
+    /*select the anchor tags with padding to spread them out less when media query is run*/
     .navbar-links li a {
     	padding: .5rem 1rem;
     }
-    /* when this media query is active, it will continue to be a responsive display */
+    /*when this media query is active, it will continue to be a responsive display*/
     .navbar-links.active {
     	display: flex;
     }
