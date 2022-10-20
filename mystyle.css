@@ -6,7 +6,7 @@ body { font-family:monaco,monospace;color:#fff;margin:0;background-color:#000;}
 .navbar-links li {list-style: none;}
 .navbar-links li a {text-decoration: none;color: white;padding: 1rem;display: block;}
 .navbar-links li:hover {background-color: pink;}
-.toggle-button {position: absolute;top: .75rem;right: 1rem;dispay: none;flex-direction: column;justify-content: space-between;width: 30px;height: 21px;}
+.toggle-button {position: absolute;top: .75rem;right: 1rem;display: none;flex-direction: column;justify-content: space-between;width: 30px;height: 21px;}
 .toggle-button .bar {height: 3px;width: 100%;background-color: white;border-radius: 10px;}
 .center {display:block;margin-left:auto;margin-right:auto;width:100%;}
 h1,h2,h3,h4,h5,h6{text-align:center;}
@@ -25,7 +25,7 @@ section,footer{margin:0 1em;}
 @media (max-width: 500px) {
     .toggle {display: flex;  }
     .navbar-links {display: none;}
-    .navbar {flex-direction: column;lign-items: flex-start;}
+    .navbar {flex-direction: column;align-items: flex-start;}
     .navbar-links ul {width: 100%;flex-direction: column;}
     .navbarlinks li {text-align: center;}
     .navbar-links li a {padding: .5rem 1rem;}
