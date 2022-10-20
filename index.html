@@ -5,59 +5,30 @@
 <a link href="index.html">Home</a>
 <link rel="stylesheet" href="mystyle.css">
 <title>Two Face Gemini Collective Home Page</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<div class= "header">
-/*Above Specifies the doc type, language, relative paths, page title and meta information*/
-	
-/*Create the header and link it to the css stylshet, mystyles.css, for the whole website*/
-<h1 style="font-family: monaco, monospace;
-           font-size:60px;
-           margin:none;
-           background-color: black;
-           padding: 30px;
-  	   color:white;">Two Face Gemini Collective</h1>
-
-	/*the below code was until the last <nav> tag was sourced from https://www.youtube.com/watch?v=At4B7A4GOPg to help create a responsive nav bar*/ I edited*/
-	/*the variables that were specific to my web page needs*/
-    <head>
-    	<link rel="stylesheet" href="background_styles.css">
-        <link rel="stylesheet" href="mystyles.css">
-        <script src="script.js" defere></script>
-    </head>
-    <body>
-	
-	/*this is where I created my first choice, MenuOptions/Navigation bars*/
-	/*I sourced this from the same youtube page as above and w3 schools for my anchor tag href for my mutliple html documents within my webpage*/
-    	<nav class="navbar">
-          <div clas="brand-title">TFGC</div>	
-          <a href="#" class="toggle-button">
-            <span class"bar"></span>
-            <span class"bar"></span>
-            <span class"bar"></span>
-          </a>
-          <div class="navbar-links">
-	        <ul> 
-                  <li><a class="active" href="index.html">Home</a></li>
-  	          <li><a href="tfgcArtists.html">TFGC Artists</a></li>
-  	          <li><a href="aboutTFGC.html">About TFGC</a></li>
-  	          <li><a href="ContactUs.html"> Contact Us</a></li>
-            </ul>
-          </div>
-        </nav>
-
-/*This is a logo for my websit on the homepage. I styled the responsive image in my css document, but I couldnt get it to work properly and resize the images*/
-/*for mobile device*/		
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="TFGC_Logo1.png">
-      <img src="TFGC_Logo1.png" alt="TFGC Logo" width="1081" height="1081">
-    </a>
-    <div class="desc">Welcome To The Two Face Gemini Collective</div>
-  </div>
-</div>
-
-<div class="clearfix"></div>                
+<head>
+    <title>Two Face Gemini Collective Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="brand-title">TFGC</div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tfgcArtists.html">TFGC Artists</a></li>
+          <li><a href="aboutTFGC.html">About TFGC</a></li>
+          <li><a href="ContactUs.html"> Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="hero">
+        <img class="center homepage" src="/images/TFGC_Logo1.png" alt="TFGC Logo">
+        <p>Welcome To The Two Face Gemini Collective</p>
+    </section>
+</body>
+</html>           
 
 </body>
 </html>
